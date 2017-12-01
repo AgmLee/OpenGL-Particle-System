@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Pre-Built">
+      <UniqueIdentifier>{4456b37c-b260-4039-b661-d01a31e58c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pre-Built">
+      <UniqueIdentifier>{4314512b-5700-4c5b-83ee-17e2707d750d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Vertex Shaders">
+      <UniqueIdentifier>{a53e59ce-b35b-4653-9a85-fd25c7d73e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fragment Shaders">
+      <UniqueIdentifier>{e6f6faa8-bd8f-4f3b-8064-b6486216aa06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base Classes">
+      <UniqueIdentifier>{5966821b-f903-45e0-8e88-545e656e9722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base Classes">
+      <UniqueIdentifier>{7c9bdd68-d4f3-459a-b77e-ccb2a9441ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main Classes">
+      <UniqueIdentifier>{4b1dab91-4b5d-4946-a66a-f9acb3f1fe20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main Classes">
+      <UniqueIdentifier>{b49867f4-0d74-4d67-8845-b966ce754436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers">
+      <UniqueIdentifier>{dce7ae89-087a-42ea-a4e2-c93ffad43e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Geometry Shaders">
+      <UniqueIdentifier>{a8067ff3-294e-48cc-820f-17de016e8768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Deffered Rendering">
+      <UniqueIdentifier>{054bb896-c69a-4d0d-9168-f1a563ddbd70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application3D.cpp">
+      <Filter>Source Files\Pre-Built</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny_obj_loader.cc">
+      <Filter>Source Files\Pre-Built</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Pre-Built</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTexture.cpp">
+      <Filter>Source Files\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Main Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>Source Files\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph.cpp">
+      <Filter>Source Files\Main Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJMesh.cpp">
+      <Filter>Source Files\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexMesh.cpp">
+      <Filter>Source Files\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystemCPU.cpp">
+      <Filter>Source Files\Main Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCamera.cpp">
+      <Filter>Source Files\Pre-Built</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultMaterial.cpp">
+      <Filter>Source Files\Main Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GPUPSCube.cpp">
+      <Filter>Source Files\Main Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystemGPU.cpp">
+      <Filter>Source Files\Main Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Pre-Built</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.cpp">
+      <Filter>Source Files\Main Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application3D.h">
+      <Filter>Header Files\Pre-Built</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Header Files\Pre-Built</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTexture.h">
+      <Filter>Header Files\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>Header Files\Main Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneControl.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph.h">
+      <Filter>Header Files\Main Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJMesh.h">
+      <Filter>Header Files\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexMesh.h">
+      <Filter>Header Files\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Header Files\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystemCPU.h">
+      <Filter>Header Files\Main Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCamera.h">
+      <Filter>Header Files\Pre-Built</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultMaterial.h">
+      <Filter>Header Files\Main Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GPUPSCube.h">
+      <Filter>Header Files\Main Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystemGPU.h">
+      <Filter>Header Files\Main Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Pre-Built</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>Header Files\Main Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\bin\shaders\default.frag">
+      <Filter>Resource Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\default.vert">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\particleCPU.frag">
+      <Filter>Resource Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\particleCPU.vert">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\ParticleDraw.frag">
+      <Filter>Resource Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\ParticleDraw.geom">
+      <Filter>Resource Files\Geometry Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\ParticleDraw.vert">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\ParticleUpdate.vert">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\ParticleDrawCube.geom">
+      <Filter>Resource Files\Geometry Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\Deffered Renderer\CompositePass.frag">
+      <Filter>Resource Files\Deffered Rendering</Filter>
+    </None>
+    <None Include="..\bin\shaders\Deffered Renderer\CompositePass.vert">
+      <Filter>Resource Files\Deffered Rendering</Filter>
+    </None>
+    <None Include="..\bin\shaders\Deffered Renderer\DirectionalPass.frag">
+      <Filter>Resource Files\Deffered Rendering</Filter>
+    </None>
+    <None Include="..\bin\shaders\Deffered Renderer\G-Pass.frag">
+      <Filter>Resource Files\Deffered Rendering</Filter>
+    </None>
+    <None Include="..\bin\shaders\Deffered Renderer\G-Pass.vert">
+      <Filter>Resource Files\Deffered Rendering</Filter>
+    </None>
+    <None Include="..\bin\shaders\Deffered Renderer\DirectionalPass.vert">
+      <Filter>Resource Files\Deffered Rendering</Filter>
+    </None>
+    <None Include="..\bin\shaders\Framebuffer.frag">
+      <Filter>Resource Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\Framebuffer.vert">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\BlurPass.frag">
+      <Filter>Resource Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\FinalPass.frag">
+      <Filter>Resource Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\luminancePass.frag">
+      <Filter>Resource Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\luminancePass.vert">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\BlurPass.vert">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="..\bin\shaders\FinalPass.vert">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
